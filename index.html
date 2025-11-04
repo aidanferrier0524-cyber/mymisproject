@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aidan Ferrier - Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .profile-section {
+            text-align: center;
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .headshot-container {
+            width: 300px;
+            height: 300px;
+            margin: 0 auto 30px;
+            border-radius: 50%;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            border: 3px solid #fff;
+        }
+
+        .headshot-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .headshot-container img:hover {
+            transform: scale(1.05);
+        }
+
+        .intro-text {
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        .intro-text h1 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+
+        .intro-text p {
+            color: #34495e;
+            font-size: 1.2em;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Menu (same on all pages) -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="hobbies.html">Hobbies</a></li>
+            <li><a href="discover.html">Discover UMD</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="career.html">Career</a></li>
+            <li><a href="game.html">Game</a></li>
+        </ul>
+    </nav>
+
+    <!-- Your page content goes here -->
+    <main>
+        <section class="profile-section">
+            <div class="headshot-container">
+                <!-- Replace the src with your actual headshot image path -->
+                <img src="images/headshot.jpeg" alt="Professional Headshot" title="Aidan Ferrier">
+            </div>
+            <div class="intro-text">
+                <h1>Hello, I'm Aidan Ferrier</h1>
+                <p>Welcome to my website! I'm a student at the University of Minnesota Duluth, studying accounting.</p>
+                <p>This is where you can learn more about my professional journey, interests, and experiences.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer (same on all pages) -->
+    <footer>
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
